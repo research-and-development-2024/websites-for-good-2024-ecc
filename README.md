@@ -14,13 +14,13 @@ Web page implementations for Eastmont Community Center's Food Distribution Progr
 - Prathima Sarvani
 - Katherine Belknap
 
-[Link to Team Graduate 3's Page Implementation](https://research-and-development-2024.github.io/websites-for-good-2024-miora/gthree/index.html)
+[Link to Team Graduate 3's Page Implementation](https://research-and-development-2024.github.io/websites-for-good-2024-ecc/gthree/index.html)
 
 ## Team Graduate 4
 - Shreyas Belur
 - Hsiu-Ping Lin
 
-[Link to Team Graduate 4's Page Implementation](https://research-and-development-2024.github.io/websites-for-good-2024-miora/gfour/index.html)
+[Link to Team Graduate 4's Page Implementation](https://research-and-development-2024.github.io/websites-for-good-2024-ecc/gfour/index.html)
 
 
 
