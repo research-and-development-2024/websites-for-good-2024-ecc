@@ -1,5 +1,7 @@
-# ECC_Project
+# Eastmont Community Center's Food Distribution Program
 
-Webpage - https://kbelkna2.github.io/ECC_Project/
+## Team Graduate 3
+- Prathima Sarvani
+- Katherine Belknap
 
-Mockup - https://www.figma.com/file/vyv5ewbApApnDzdCtJdaqs/ECC-Mockup-Template?type=design&node-id=0-1&mode=design&t=5ytr1X2TS8EmT07V-0
+[Link to Team Graduate 3's Page Implementation](https://research-and-development-2024.github.io/websites-for-good-2024-miora/gthree/index.html)
