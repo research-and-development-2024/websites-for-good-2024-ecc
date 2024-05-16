@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Food Distribution - Eastmont Community Center</title>
+    <meta name="description" content="Food Distribution - Eastmont Community Center">
+
+    <!-- Bootstrap css classess -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Google Fonts: https://fonts.google.com/specimen/Montserrat?query=Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Inline CSS -->
+    <style>
+		body {
+		    font-family: "Montserrat", sans-serif;
+		}
+
+        h3, h4, h5{
+            font-weight: bold;
+            text-align: center;
+        }
+	
+        h3 {
+            font-size: 80px;
+            color: #F5AD42;
+        }
+
+        h4, h5 {
+            color: #FFFFFF;
+        }
+
+        h4 {
+            font-size: 36px;
+        }
+
+        h5 {
+            font-size: 26px;
+        }
+
+        .text {
+            font-size: 23px;
+            text-align: center;
+        }
+
+        .number {
+            font-size: 45px;
+            font-weight: bold;
+            text-align: center;
+            background-color: #F5AD42;
+        }
+
+        .stepslist, .steps {
+            font-size: 28px;
+            color: #FFFFFF;
+        } 
+        
+        .stepslist {
+            padding-left: 150px;
+        }
+        
+        .steps {
+            text-align: center;
+        }
+
+        /*Collapse CSS*/
+        .btn-info,
+        .btn-info:hover,
+        .btn-info:focus,
+        .btn-info:active,
+        .btn-info.active {
+            background-color: black !important;
+            border-color: black !important;
+            outline: none !important;
+            float: right;
+        }
+
+        .btn-info.toggle:before {
+            content: '\25BC';
+            /* Downward triangle */
+            color: #F5AD42;
+        }
+
+        .btn-info.toggle.collapsed:before {
+            content: '\25B2';
+            /* Upward triangle */
+            color: #F5AD42;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .listdrop, .contact, .drop {
+            font-size: 23px;
+            color: #FFFFFF;
+        }
+        
+        .listdrop {
+            padding: 25px;
+        }
+
+        .icon {
+            float: left;
+        }
+        
+        .drop {
+            text-align: center;
+            padding-left: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main class="container">
+        <section class="row">
+            <h1 class="text-center mt-3 my-3">Eastmont Community Center</h1>
+            <h2 class="text-center mb-5 fw-bold">Food Distribution Program</h2>
+
+            <article class="col-lg-12">
+                <p class="text">The Eastmont Community Center operates a food distribution program, providing services
+                    to a diverse group of clients. This program is dedicated to helping those facing food insecurity
+                    through donations. We serve minority, low-income family, and senior citizen residents within the
+                    1st—supervisorial district through our distributions held <strong>every Friday between 8 am and 10
+                        am.</strong>
+                </p>
+            </article>
+        </section>
+
+        <section class="row">
+            <h2 class="text-center mb-5 fw-bold">- - - - Year 2023 - - - -</h2>
+
+            <article class="col-lg-4">
+                <h3>3,300</h3>
+                <p class="text">households served</p>
+            </article>
+            <article class="col-lg-4">
+                <h3>15,125</h3>
+                <p class="text">individuals served</p>
+            </article>
+            <article class="col-lg-4">
+                <h3>490,000</h3>
+                <p class="text">lbs food distributed</p>
+            </article>
+        </section>
+
+        <section class="row">
+            <figure class="col-lg-3">
+                <img src="img/ECCpic_1.jpg" title="Fresh produce" width="100%" height="100%"
+                    alt="Volunteer with a box of produce">
+            </figure>
+            <figure class="col-lg-3">
+                <img src="img/ECCpic_2.jpg" title="Bring your own cart" width="100%" height="100%"
+                    alt="Client with their cart">
+            </figure>
+            <figure class="col-lg-3">
+                <img src="img/ECCpic_3.jpg" title="Food for the family" width="100%" height="100%"
+                    alt="Client with cart and child">
+            </figure>
+            <figure class="col-lg-3">
+                <img src="img/ECCpic_4.jpg" title="Friendly workers" width="100%" height="100%"
+                    alt="Voluneteer waves behind table of food">
+            </figure>
+        </section>
+
+        <section>
+            <article class="row">
+
+                <article class="col-lg-2">
+                    <p class="number">1</p>
+                </article>
+
+                <article class="col-lg-10" style="background-color: black;">
+                    <button type="button" class="btn btn-info toggle collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#drop1">Toggle</button>
+
+                    <h4>Meet Requirements</h4>
+                    <ul class="stepslist">
+                        <li>Live in LA County's 1st Supervisorial district</li>
+                        <li>Meet income qualification</li>
+                    </ul>
+
+                    <article id="drop1" class="collapse">
+                        <article class="col-lg-12" style="background-color: #777777;">
+                            <h5>Documents as proof of residence and qualification</h5>
+                            <ul class="listdrop">
+                                <li>An electric or gas bill</li>
+                                <li>3 months of income ex: paystubs<ul>
+                                        <li>Seniors may provide Social Security Award Letter, SSI, etc</li>
+                                    </ul>
+                                </li>
+                                <li>ID is preferred but not required.</li>
+                            </ul>
+                            <p class="drop">
+                                <em>Unhoused individuals are exempt <br>from screening for service area
+                                    requirements.</em>
+                            </p>
+                        </article>
+                    </article>
+                </article>
+            </article>
+
+            &nbsp;
+
+            <article class="row">
+                <article class="col-lg-2">
+                    <p class="number">2</p>
+                </article>
+
+                <article class="col-lg-10" style="background-color: black;">
+                    <button type="button" class="btn btn-info toggle collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#drop2">Toggle</button>
+                    <h4>Make an Appointment</h4>
+                    <p class="steps">Schedule a time to register <br>for food distribution</p>
+
+                    <article id="drop2" class="collapse">
+                        <article class="col-lg-12" style="background-color: #777777;">
+                            <h5>Contact: Brissa Sanchez</h5>
+                            <img src="img/ECC_contact1.jpg" title="Phone Icon" width="25px" height="25px"
+                            alt="Phone Icon" class="icon">
+                            <p class="contact">(323) 312 - 5392
+                            </p>
+                            <img src="img/ECC_contact2.jpg" title="Letter Icon" width="25px" height="25px"
+                                alt="Letter Icon" class="icon">
+                            <p class="contact">bsanchez@eastmontcommunitycenter.org
+                            </p>
+                        </article>
+                    </article>
+                </article>
+            </article>
+
+            &nbsp;
+
+            <article class="row">
+
+                <article class="col-lg-2">
+                    <p class="number">3</p>
+                </article>
+
+                <article class="col-lg-10" style="background-color: black;">
+                    <button type="button" class="btn btn-info toggle collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#drop3">Toggle</button>
+
+                    <h4>Register</h4>
+                    <p class="steps">Bring documents to confirm eligibility and <br>complete application for food
+                        distribution</p>
+
+                    <article id="drop3" class="collapse">
+                        <article class="col-lg-12" style="background-color: #777777;">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="img/ECC_contact3.jpg" title="Map Pin Icon" width="25px" height="25px"
+                                            alt="Map Pin Icon" class="icon">
+                                    </td>
+                                    <td class="listdrop">
+                                        Eastmont Community Center<br>701 Hoefner Avenue<br>East Los Angeles, CA 90022
+                                    </td>
+                                    <td class="drop">
+                                        <p class="drop">
+                                            Must come <strong>in-person</strong> and <br>fill out an intake packet
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </article>
+                    </article>
+                </article>
+            </article>
+
+            &nbsp;
+
+            <article class="row">
+                <article class="col-lg-2">
+                    <p class="number">4</p>
+                </article>
+
+                <article class="col-lg-10" style="background-color: black;">
+                    <button type="button" class="btn btn-info toggle collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#drop4">Toggle</button>
+
+                    <h4>Pick Up Food</h4>
+                    <p class="steps">By <strong>Appointment Only</strong> and Community <br>members pick up food
+                        <strong>In-Person</strong>
+                    </p>
+
+                    <article id="drop4" class="collapse">
+                        <article class="col-lg-12" style="background-color: #777777;">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="img/ECC_contact3.jpg" title="Map Pin Icon" width="25px"
+                                            height="25px" alt="Map Pin Icon">
+                                    </td>
+                                    <td class="listdrop">
+                                        Eastmont Community Center<br>701 Hoefner Avenue<br>East Los Angeles, CA 90022
+                                    </td>
+                                    <td>
+                                        <ul class="listdrop">
+                                            <li>Please <strong>bring your own cart</strong></li>
+                                            <li>Walk-ins are not accepted!</li>
+                                            <li>Staff will check appointments<br>and provide numbered tickets<br>to confirm space in
+                                                line
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </article>
+                    </article>
+                </article>
+            </article>
+        </section>
+
+        <section class="row">
+            <article class="col-lg-4">
+                <figure class="text-center">
+                    <img src="img/ECC_2.jpg" title="Shopping basket icon" width="35%" height="auto"
+                        alt="Shopping basket icon">
+                    <figcaption class="text">
+                        <p>Clients are provided with 60-80 pounds of food each week</p>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article class="col-lg-4">
+                <figure class="text-center">
+                    <img src="img/ECC_5.jpg" title="Fork and knife icon" width="35%" height="auto"
+                        alt="Fork and knife icon">
+                    <figcaption class="text">
+                        <p>Clients are provided with shelf stable items, meat, dairy, fresh fruits and vegetables</p>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article class="col-lg-4">
+                <figure class="text-center">
+                    <img src="img/ECC_3.jpg" title="Webpage icon" width="35%" height="auto" alt="Webpage icon">
+                    <figcaption class="text">
+                        <p>Additional programs and services are provided through the quick links</p>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+
+    <footer class="text">
+        &copy; 2024 Food Distribution - Eastmont Community Center
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var myCollapse = document.getElementById('drop');
+        var bsCollapse = new bootstrap.Collapse(myCollapse, {
+            toggle: false
+        });
+
+        $('.btn-info').click(function () {
+            bsCollapse.toggle();
+        });
+    </script>
+
+</body>
+
+</html>
