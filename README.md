@@ -8,7 +8,7 @@ Web page implementations for Eastmont Community Center's Food Distribution Progr
 - Brian Burwick 
 - Marco Tzunun 
 
-[Link to Team Undergraduate 8's Page Implementation](https://research-and-development-2024.github.io/websites-for-good-2024-ecc/uteight/index.html)
+[Link to Team Undergraduate 8's Page Implementation](https://research-and-development-2024.github.io/websites-for-good-2024-ecc/ueight/index.html)
 
 ## Team Graduate 3
 - Prathima Sarvani
